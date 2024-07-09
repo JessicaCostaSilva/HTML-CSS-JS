@@ -1,0 +1,38 @@
+:root {
+  --azul-claro: #A2D5F2;
+  --verde: #81C784;
+  --laranja: #FFB74D;
+  --branco: #FFFFFF;
+  --cinza-claro: #E0E0E0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--azul-claro);
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--branco);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--verde);
+}
+label {
+  font-weight: bold;
+}
+input[type="text"], input[type="number"], select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid var(--cinza-claro);
+  border-radius: 5px;
+}
+button {
+  background-color:
